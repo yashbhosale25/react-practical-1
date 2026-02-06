@@ -2,15 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import SimpleInput from './components/SimpleInput'
-import Form from './components/Form'
-import Formm from './components/Formm'
-import Forms from './components/Forms'
-import FormHook from './components/Formhook'
+//import SimpleInput from './components/SimpleInput'
+//import Form from './components/Form'
+//import Formm from './components/Formm'
+//import Forms from './components/Forms'
+//import FormHook from './components/Formhook'
 // import MemoParent from './components/MemoParent'
 import MemoComputation from './components/MemoComputation'
 import CallbackExample from './components/CallbackExample'
-import Button from './components/Button'
+//import Button from './components/Button'
 import ParentComponent from './components/ParentComponents'
 
 
@@ -37,7 +37,6 @@ function App() {
       {/* <MemoParent /> */}
       <MemoComputation />
       <CallbackExample />
-      <Button />
       <ParentComponent />
     </>
   );
